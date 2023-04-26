@@ -1,0 +1,43 @@
+{
+  "name": "plate-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "lint": "cross-env TIMING=1 eslint \"**/*+(.tsx?|.ts|.js)\"",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@udecode/plate-core": "^20.7.0",
+    "@udecode/plate-headless": "^20.7.1",
+    "@udecode/plate-utils": "^20.7.0",
+    "postcss": "^8.4.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-styled-components": "2.1.8",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-tailwindcss": "^3.11.0",
+    "jest": "^29.5.0",
+    "jest-runner-eslint": "^2.0.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
