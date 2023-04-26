@@ -1,2 +1,2 @@
 # plate-tailwindcss
-Sample components for styling @udecode/plate with TailwindCSS
+Sample code for styling @udecode/plate with TailwindCSS
