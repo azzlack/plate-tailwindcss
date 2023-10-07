@@ -19,7 +19,7 @@
     "@udecode/plate-core": "^20.7.0",
     "@udecode/plate-headless": "^20.7.1",
     "@udecode/plate-utils": "^20.7.0",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-styled-components": "2.1.8",
